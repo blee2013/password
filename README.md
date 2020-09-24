@@ -6,4 +6,4 @@
 * you will be prompted to choose which of those you would like to include
 * the password will then be displayed on the screen
 
-https://blee2013.github.io/password-generator/
+https://blee2013.github.io/password
