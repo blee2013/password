@@ -13,9 +13,15 @@ function createGeneratePassword() {
   );
 
 //make sure that a number is entered into input
-if  (isNaN(length)=== true) {
-  alert ("Your password length must be given as a number. Please try again.")
-}
+  while (isNaN(length) === true){
+    alert("Your password length must be given as a number. Please try again.")
+      var length = parseInt(
+    prompt("How many characters would you like your password to contain? * It must be between 8 and 128 characters.")
+  );
+  }
+// if  (isNaN(length)=== true) {
+//   alert ("Your password length must be given as a number. Please try again.")
+// }
 
 // 8 characters and no more than 128 characters, length of password
 if (length < 8 || length > 128) {
